@@ -4,9 +4,9 @@ class SbrOddsProvider:
     
     """ Abbreviations dictionary for team location which are sometimes saved with abbrev instead of full name. 
     Moneyline options name require always full name
-    
+
     Returns:
-        string: Full location name
+        string: Full location name of the team
     """    
 
     def __init__(self, sportsbook="fanduel"):
